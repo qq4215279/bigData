@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bigdata:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>bigdata</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="bigData.war">
+      <element id="artifact" artifact-name="bigdata:war exploded" />
+    </root>
+  </artifact>
+</component>

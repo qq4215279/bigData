@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: deve #配置：生产环境配置：prod；开发配置：deve；测试版
+
+
+server:
+  port: 9082
+  servlet:
+    context-path: /bigData
